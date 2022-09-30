@@ -388,7 +388,13 @@ h6 {
 .title {
   position: relative;
   color: var(--heading-color);
-  font-size: 115px;
+  font-size: 100px;
+  line-height: 120px;
+}
+.title2{
+  position: relative;
+  color: var(--heading-color);
+  font-size: 80px;
   line-height: 120px;
 }
 @media only screen and (max-width: 991px) {
@@ -3386,7 +3392,7 @@ body.locked-scroll .bg-mod-exclusion {
 }
 
 .header-padding-top {
-  padding-top: 160px;
+  padding-top: 100px;
 }
 
 .header-padding-bottom {
