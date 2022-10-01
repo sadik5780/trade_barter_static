@@ -1849,7 +1849,7 @@ body:not(.v-dark) .site-header {
 .services .service-item:hover .service-item-wrapper{
   padding-bottom: -4px;
 }
-.services .service-item:hover h4{
+.services .service-item:hover h4,.services .service-item:hover p{
   color: #e03d24;
 }
 @media only screen and (max-width: 767px) {
@@ -2852,7 +2852,7 @@ color: #e03d24;
   position: absolute;
   left: 0;
   top: 0;
-  padding-left: 12%;
+  padding-left: 20%;
   pointer-events: none;
   z-index: 4;
 }

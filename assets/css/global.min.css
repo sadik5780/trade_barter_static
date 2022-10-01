@@ -983,7 +983,7 @@ body.locked-scroll .bg-mod-exclusion {
 [data-overlay]:before {
   content: "";
   position: absolute;
-  background: var(--color-overlay);
+  /* background: var(--color-overlay); */
   width: 100%;
   height: 100%;
   top: 0;
@@ -1036,7 +1036,7 @@ body.locked-scroll .bg-mod-exclusion {
 }
 
 .section-margin {
-  margin-top: var(--margin-padding);
+  margin-top: 8rem;
   margin-bottom: var(--margin-padding);
 }
 @media only screen and (max-width: 991px) {

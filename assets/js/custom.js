@@ -278,7 +278,7 @@
 
                         on: {
                             init: function () {
-                                this.autoplay.start();
+                                this.autoplay.stop();
                                 let swiper = this;
 
                                 dsn_slider.find("[data-dsn=\"video\"] video").each(function () {
